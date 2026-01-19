@@ -1,0 +1,14 @@
+App Name: Event Countdown Dashboard
+
+Core Features:
+- Display a list of upcoming events
+- Each event shows:
+  - Event name
+  - Event date
+  - Remaining days until the event
+- Countdown updates automatically when the app is running
+
+Constraints:
+- Use mock event data
+- No authentication
+- No backend
