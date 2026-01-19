@@ -1,0 +1,86 @@
+.event-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 5px solid #667eea;
+}
+
+.event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.event-card.urgent {
+  border-left-color: #e74c3c;
+  background: linear-gradient(to right, #fff5f5, white);
+}
+
+.event-card.soon {
+  border-left-color: #f39c12;
+  background: linear-gradient(to right, #fffbf0, white);
+}
+
+.event-info {
+  flex: 1;
+}
+
+.event-name {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.event-date {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  min-width: 120px;
+}
+
+.event-card.urgent .countdown {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
+
+.event-card.soon .countdown {
+  background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+}
+
+.days-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1;
+}
+
+.days-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 4px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .event-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .countdown {
+    width: 100%;
+  }
+}
