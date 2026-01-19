@@ -1,0 +1,67 @@
+Claude-Opus-4.5  ：：
+User: prompt
+You are a frontend developer.
+Your task is to build a complete, runnable frontend application from scratch based strictly on the specification provided in input_ui_spec.txt.
+This is a UI Case evaluation focusing on:
+- Creating an app from scratch
+- Correct project setup
+- Basic state management
+- UI completeness
+──────────────────────────────────── Requirements ────────────────────────────────────
+- You may choose any frontend technology stack
+- The project MUST be runnable locally
+- You MUST generate a real project, not just design descriptions
+──────────────────────────────────── Your Responsibilities ────────────────────────────────────
+1.Read input_ui_spec.txt carefully
+2.Generate a complete frontend project
+3.Implement all required features
+4.Use mock data if necessary
+5.Provide clear run instructions
+──────────────────────────────────── Output Requirements (MANDATORY) ────────────────────────────────────
+- Full project file structure
+- package.json (or equivalent)
+- Source code files
+- README.md with install & run steps
+──────────────────────────────────── Rules ────────────────────────────────────
+- Do NOT output only UI ideas or explanations
+- Do NOT skip required files
+- Do NOT invent features not listed in the spec
+
+GitHub Copilot: I'll create a complete React application with Vite for the Event Countdown Dashboard based on the specification. Let me build all the required files. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/vite.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/src/main.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/src/data/mockEvents.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/src/components/EventCard.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/src/components/EventCard.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/src/App.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/src/App.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.19/case1/Claude-Opus-4.5/event-countdown-dashboard/README.md)
+
+Now let me install dependencies and run the application: 
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.19\case1\Claude-Opus-4.5\event-countdown-dashboard"; npm install
+
+Ran terminal command: npm run dev
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.19\case1\Claude-Opus-4.5\event-countdown-dashboard" ; npm run dev
+
+The application is running. Let me open it in the browser: 
+
+Opened Simple Browser at http://localhost:5175
+
+Made changes.
+
