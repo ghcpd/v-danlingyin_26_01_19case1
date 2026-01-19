@@ -1,0 +1,27 @@
+prompt
+You are a frontend developer.
+Your task is to build a complete, runnable frontend application from scratch based strictly on the specification provided in input_ui_spec.txt.
+This is a UI Case evaluation focusing on:
+- Creating an app from scratch
+- Correct project setup
+- Basic state management
+- UI completeness
+──────────────────────────────────── Requirements ────────────────────────────────────
+- You may choose any frontend technology stack
+- The project MUST be runnable locally
+- You MUST generate a real project, not just design descriptions
+──────────────────────────────────── Your Responsibilities ────────────────────────────────────
+1.Read input_ui_spec.txt carefully
+2.Generate a complete frontend project
+3.Implement all required features
+4.Use mock data if necessary
+5.Provide clear run instructions
+──────────────────────────────────── Output Requirements (MANDATORY) ────────────────────────────────────
+- Full project file structure
+- package.json (or equivalent)
+- Source code files
+- README.md with install & run steps
+──────────────────────────────────── Rules ────────────────────────────────────
+- Do NOT output only UI ideas or explanations
+- Do NOT skip required files
+- Do NOT invent features not listed in the spec
